@@ -1,0 +1,11 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Vector Brushes are from  http://modernuiicons.com/-->
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <SolidColorBrush x:Key="LightBrush" Color="{StaticResource Cararra}"/>
+    <SolidColorBrush x:Key="DarkBrush" Color="{StaticResource EbonyClay}"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource BurntOrange}"/>
+</ResourceDictionary>

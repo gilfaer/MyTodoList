@@ -1,0 +1,8 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--These colors are from  www.flatuicolorpicker.com-->
+    <Color x:Key="Cararra">#FFF2F1EF</Color>
+    <Color x:Key="EbonyClay">#FF22313F</Color>
+    <Color x:Key="BurntOrange">#FFD35400</Color>
+</ResourceDictionary>

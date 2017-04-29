@@ -17,8 +17,7 @@ namespace MyToDoList.Views
             {
                 User = new UserViewModel
                 {
-                    FirstName = "Michael",
-                    LastName = "Olson"
+                    Name = "Michael Olson"
                 }
             };
         }

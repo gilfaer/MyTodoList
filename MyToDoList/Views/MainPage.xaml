@@ -7,7 +7,13 @@
     xmlns:viewModels="using:MyToDoList.ViewModels"
     d:DataContext="{d:DesignInstance Type=viewModels:MainPageViewModel, IsDesignTimeCreatable=False}"
     mc:Ignorable="d">
-
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../CommonResources/CommonResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid>
             <Grid.RowDefinitions>
@@ -18,10 +24,7 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Row="0" Grid.Column="1">
-                <Run Text="{x:Bind ViewModel.User.FirstName}"/>
-                <Run Text="{x:Bind ViewModel.User.LastName}"/>
-            </TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBlockStyleDark}" Text="{x:Bind ViewModel.User.Name}"/>
         </Grid>
     </Grid>
 </Page>
