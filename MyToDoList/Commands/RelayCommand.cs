@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace MyToDoList.ViewModels
+namespace MyToDoList.Commands
 {
     //Modified from http://stackoverflow.com/questions/22285866/why-relaycommand and
     //http://onewindowsdev.com/?p=32
