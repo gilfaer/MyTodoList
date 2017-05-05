@@ -95,6 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IoC\IInversionOfControlContainer.cs" />
+    <Compile Include="IoC\InversionOfControlContainer.cs" />
+    <Compile Include="IoC\IoCFrame.cs" />
     <Compile Include="Mediator\IMediator.cs" />
     <Compile Include="Mediator\Listener.cs" />
     <Compile Include="Mediator\Mediator.cs" />
